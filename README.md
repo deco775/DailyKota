@@ -1,30 +1,30 @@
-DailyKota
+**DailyKota**
 
-Title: “DailyKota: Revolutionizing kota sales Online”.
+**Title:** “DailyKota: Revolutionizing kota sales Online”.
 Kota:  is an iconic South African street food. 
 
-Team:
+**Team:**
 Developer: Pitso Mkansi,
  I am a solo backend developer, I have designed and implemented the use interface,
 Handled the database, and server-side logic and
 Optimized UI/UX elements.
 
-Overview:
+**Overview:**
 DailyKota is web application that simplifies the process of ordering kota, a popular local fast-food item. It provides a user-friendly platform where customers can browse menus, order items.
 Purpose: To bring convenience and efficiency to the customers, people stand in long queues to buy kota.
 
-Target Audience:
+**Target Audience:**
 Kota enthusiasts and
 Local vendors seeking online solutions for food delivery.
 
-Learning Objectives
+**Learning Objectives**
 Strengthen front-end development skills using HTML, CSS, and JavaScript.
 Gain hands-on experience with Django for back-end development.
 Implement a responsive design to ensure the website works seamlessly on all devices.
 Integrate third-party APIs or services for payment and order tracking.
 Learn to deploy and maintain a web application.
 
-Technologies Used
+**Technologies Used:**
 Front-End:
 HTML for structure.
 CSS for styling and design.
@@ -38,7 +38,7 @@ Git and GitHub for code management.
 
 
 
-Third-Party Services
+**Third-Party Services**
 Payment Gateway:
 Stripe for secure transactions.
 Challenges:
@@ -46,13 +46,13 @@ Designing a user-friendly interface that attracts and retains customers, I had s
 Ensuring secure and smooth payment processing, Initial setup for Stripe was a complex.
 Managing solo workload, I had to code, design, Debugging and testing all on my own.
 
-Areas of improvement:
+**Areas of improvement:**
 UI/UX: Further refinement to enhance user engagement.
 Scalability: Optimise for higher traffic loads.
 Adding a section for vendors to add their menus and sell online on this platform.
 Build and Admin dashboard for better vendor control.
 
-Lesson Learned:
+**Lesson Learned:**
 The more you practice is the more you learn and gain experience.
 Agile improvement practice improves efficiency.
 The need of extensive testing before deployment
