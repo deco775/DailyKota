@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <div class="sidebar">
+                <div class="profile">
+                    <img src="static/deco.jpg" alt="profile Picture" class="profile-image">
+                    <h2 class="profile-name">{{username}}</h2>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Dashboard</a></li>
+                   <!---<li><a href="#">Notifications</a></li>-->
+                    <li><a href="{{url_for('home')}}">Log Out</a></li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <div class="header">
+                    <h1>Welcome to your dashboard {{ username }}</h1>
+                </div>
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <h3>Posts</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>Best KOTA in town</h3>
+        <img src="static/kota1.jpeg">
+    <h4>Get Your Kota Fix! Juicy polony, crispy chips, eggs and fresh vegies, all in one buddle. <a href="{{url_for('store_1')}}" id="order">Order Now!!!</a></h4>
+        <ul>
+           <!-- <p>Fresh</p>
+            <p>Flavorble</p>
+            <p>And Totally irresistable</p> -->
+        </ul>
+        <h2>Our Stores</h2>
+        <div class="store-list">
+            <a href="{{url_for('store_1')}}" class="store"><img src="static/kotaTruck.jpg" id="kotaTruck"></a>
+            <a href="" class="store" id="store1">Store 2</a>
+            <a href="" class="store" id="store1">Store 3</a>
+        </div> 
+   
+    </main>
+    <div id="footer">
+        <footer>
+            <small> <a href="{{url_for('about')}}">About</a>
+             <a href="{{url_for('contact')}}">Contact</a>
+             &copy;copyright 2024</small>
+         </footer>
+
+    </div>
+</body>
+</html>

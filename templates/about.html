@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #270606;
+            color: #000;
+            padding: 20px 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #350808;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+        a {
+            color: #330909;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        #about{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="about">About</h1>
+        <a href="{{url_for('home')}}" id="homee">Home</a>
+    </header>
+            <h1>Welcome to DailyKota</h1>
+        <main>
+            <h2>About Us</h2>
+            <p>
+                At <strong>DailyKota</strong>, we are passionate about bringing you the authentic taste of South Africa's favorite street food: the Kota. 
+                Our mission is to celebrate this iconic dish and make it easily accessible to everyone, anytime, anywhere.
+            </p>
+            <p>
+                We started with a simple goal – to provide a platform where people can explore and enjoy freshly made, delicious Kotas, 
+                prepared with love and the finest ingredients. From classic fillings to modern twists, our menu is designed to cater to every taste.
+            </p>
+            <h2>What Makes Us Unique?</h2>
+            <ul>
+                <li>Authentic recipes crafted by experienced chefs.</li>
+                <li>High-quality ingredients sourced locally.</li>
+                <li>Customizable options to create your perfect Kota.</li>
+                <li>Fast, reliable delivery right to your doorstep.</li>
+            </ul>
+            <p>
+                Whether you're craving a hearty lunch, a quick snack, or a fun family meal, Kota Express has you covered.
+            </p>
+            <h2>Our Vision</h2>
+            <p>
+                To be the leading platform for authentic and innovative Kota experiences, while promoting South Africa's rich culinary heritage worldwide.
+            </p>
+        </main>
+        <footer>
+            <p>&copy; 2025 DailyKota. All rights reserved.</p>
+        </footer>
+</body>
+</html>

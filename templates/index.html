@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Kota</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Daily Kota</h1>
+        <nav>
+            <a href="{{url_for('login')}}">Login</a>
+            <a href="{{url_for('register')}}">Create Account</a>
+        </nav>
+    </header>
+    <main>
+        <h3>Best KOTA in town</h3>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+         {% for category, message in messages %}
+            <div class="alert alert-{{ category }}">{{ message }}</div>
+         {% endfor %}
+        {% endif %}
+    {% endwith %}
+        <img src="static/kota1.jpeg">
+        <h4>Get Your Kota Fix! Juicy polony, crispy chips, eggs and fresh vegies, all in one buddle. <a href="{{url_for('store1')}}" id="order">Order Now!!!</a></h4>
+        <ul>
+            <p>Fresh</p>
+            <p>Flavorble</p>
+            <p>And Totally irresistable</p>
+        </ul>
+        <h2>Our Stores</h2>
+        <div class="store-list">
+            <a href="{{url_for('store1')}}" class="store"><img src="static/kotaTruck.jpg" id="kotaTruck"></a>
+            <a href="" class="store" id="store1">Store 2</a>
+            <a href="#" class="store" id="store1">Store 3</a>
+        </div> 
+    </main>
+   <div id="footer">
+     <!--   <footer>
+            <small> <a href="">About</a>
+             <a href="">Contact</a>
+             &copy;copyright 2025</small>
+         </footer>
+
+    </div> -->
+    
+    <script>
+       
+    </script>
+</body>
+<hr>
+    <footer>
+        <small> <a href="{{url_for('about')}}">About</a>
+         <a href="{{url_for('contact')}}">Contact</a>
+         copyright &copy; 2024</small>
+     </footer>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store 1</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>databese</h1>
+        <a href="{{url_for('home')}}">Home</a>
+    </header>
+    <main>
+        {% for user in users %}
+            <p>{{user.id}}</p>
+            <P>{{user.username}}</P>
+            <p>{{user.email}}</p>
+        {% endfor %}
+    </main>
+</body>
+</html>

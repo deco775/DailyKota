@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store 1</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Store 1</h1>
+        <a href="{{url_for('dashboard')}}" id="homee">Dashboard</a>
+    </header>
+    <main>
+        <h2>Available Menu</h2>
+        <h4 class="menuT">Kota</h4>
+        <ul>
+            <li><a href="{{url_for('process_payment')}}" class="menu">Bread, Chips, Polony - R18.00</a></li>
+            <li><a href="{{url_for('process_payment')}}" class="menu">Bread, Chips, Lettuce, Polony - R22.00</a></li>
+            <li><a href="{{url_for('process_payment')}}" class="menu">Bread, Chips, Egg, Lettuce, Polony - R27.00</a></li>
+            <li><a href="" class="menu">Bread, Chips, Russian, Egg, Lettuce, Polony - R30.00</a></li>
+        </ul>
+        <br>
+        <br>
+        <h4 class="menuT">Chips</h4>
+        <ul>
+            <li><a href="" class="menu">Small - R15.00</a></li>
+            <li><a href="" class="menu">Medium - R20.00</a></li>
+            <li><a href="" class="menu">Large - R23.00</a></li>
+            <li><a href="" class="menu">Extra Large - R28.00</a></li>
+        </ul>
+
+    </main>
+</body>
+</html>
